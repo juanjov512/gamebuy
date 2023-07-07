@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  --rojo: #E50914;
+  --rojo-oscuro: #B81D24;
+  --negro: #221F1F;
+  --blanco: #F5F5F1;
+}
+
+.side-bar-contenedor {
+  width: 17%;
+  height: 100%;
+  position: fixed;
+  color: var(--blanco);
+  background-color: var(--negro);
+}
+
+.principal-contenedor {
+  margin-left: 17%;
+  width: 83%;
+  height: 100%;
+  position: fixed;
+  display: flex;
+  background-color: #fff;
+}
+
+/*
+  CSS para formularios login y crear cuenta
+*/
+.contenedor {
+  margin: 20px;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.col-1 {
+  width: 40%;
+}
+
+.col-2 {
+  width: 60%;
+}
+
+h3 {
+  text-align: center;
+}
+
+.form-login {
+  margin-left: 2rem;
+}
+
+.col-login{
+  margin-left: 8rem;
+  margin-top: 10rem;
+
+}
+.card {
+  width: 70vh;
+}
+
+.mt {
+  margin-top: 0.4rem;
+}
+
+.campo {
+  display: grid;
+}
+
+div span:hover {
+  color: var(--rojo-oscuro);
+  cursor: pointer;
+}
+
+.aviso {
+  margin-top: 200px;
+}
